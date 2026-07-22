@@ -1,0 +1,27 @@
+.sidebar-toggle {
+  font-size: 20px;
+  color: #444;
+  cursor: pointer;
+}
+
+.sidebar-toggle.active {
+  position: absolute;
+  z-index: 10;
+}
+
+.sidebar-menu {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  height: 100%;
+  min-width: 230px;
+  max-width: 250px;
+  box-shadow: 0px 8px 24px rgba(149, 149, 149, 0.2);
+}
+
+@media (min-width: 1024px) {
+  .sidebar {
+    display: none;
+  }
+}

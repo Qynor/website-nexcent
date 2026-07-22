@@ -2,6 +2,7 @@ import Logo from '../../../assets/Logo.png'
 import { Navigation } from '../../navigation/navigation'
 import { GoArrowRight } from "react-icons/go";
 import './header.css'
+import { Sidebar } from '../../sidebar/sidebar';
 
 export const Header: React.FC = () => {
   return (
@@ -13,8 +14,9 @@ export const Header: React.FC = () => {
         </div>
         <div className="side-left">
             <div className="header-menu"><Navigation/></div>
-            <button id="register-account">Register Now <GoArrowRight/></button>
+            <button className="register-account">Register Now <GoArrowRight/></button>
           </div>
+          <Sidebar/>
       </div>
     </header>
   )
