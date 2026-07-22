@@ -1,0 +1,14 @@
+#nav ul {
+  list-style: none;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #444;
+}
+
+#nav ul {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
